@@ -1,0 +1,14 @@
+public class Amizades_Riley {
+    public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.print("Quantas amizades Riley fez? ");
+    int amizades = scanner.nextInt();
+if (amizades > 0) {
+    int pontosAlegria = amizades * 10;
+ System.out.println("Alegria recebeu " + pontosAlegria + "pontos.");
+     } 
+else {
+            System.out.println("Tristeza recebeu 30 pontos.");
+        }
+    }
+}
